@@ -6,10 +6,10 @@ GEM
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
       sass (~> 3.1)
-    compass-normalize (1.4.1)
-      compass (>= 0.11.5)
+    compass-normalize (1.5)
+      compass (>= 0.12.0)
     daemons (1.1.9)
-    eventmachine (1.0.0)
+    eventmachine (1.2.0.1)
     fssm (0.2.9)
     haml (3.1.7)
     rack (1.4.1)
@@ -17,6 +17,8 @@ GEM
       rack
     rake (10.0.2)
     sass (3.2.3)
+    shotgun (0.9.1)
+      rack (>= 1.0)
     sinatra (1.3.3)
       rack (~> 1.3, >= 1.3.6)
       rack-protection (~> 1.2)
@@ -34,11 +36,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  compass (~> 0.12.2)
-  compass-normalize (~> 1.4.1)
-  haml (~> 3.1.7)
+  compass
+  compass-normalize
+  eventmachine (~> 1.2, >= 1.2.0.1)
+  haml
   rake
-  sass (~> 3.2.3)
-  sinatra (~> 1.3.3)
-  susy (~> 1.0.5)
-  thin (~> 1.5.0)
+  sass
+  shotgun
+  sinatra
+  susy
+  thin
+
+BUNDLED WITH
+   1.11.2

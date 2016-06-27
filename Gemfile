@@ -1,16 +1,18 @@
 source 'https://rubygems.org'
 
+gem 'eventmachine', '~> 1.2', '>= 1.2.0.1'
 gem 'rake'
-gem 'sinatra', '~> 1.3.3'
-gem 'haml', '~> 3.1.7'
+gem 'sinatra'
+gem 'haml'
+gem 'shotgun'
 
 # Sass & Compass
-gem 'sass', '~> 3.2.3'
-gem 'compass', '~> 0.12.2'
-gem 'compass-normalize', '~> 1.4.1'
+gem 'sass'
+gem 'compass'
+gem 'compass-normalize'
 
 # Sass libraries
-gem 'susy', '~> 1.0.5'
+gem 'susy'
 
 # Runtime
-gem 'thin', '~> 1.5.0'
+gem 'thin'
